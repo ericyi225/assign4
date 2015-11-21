@@ -258,7 +258,7 @@ void draw()
     {
       for(int i = 0; i < 8; i++)
       {
-        if(Fight_x<=Enemy_x[i]+50 && Fight_x>=Enemy_x[i]-50 && Fight_y<=Enemy_y[i]+50 && Fight_y>=Enemy_y[i]-50)
+        if(Fight_x<=Enemy_x[i]+enemyImg.width && Fight_x>=Enemy_x[i] && Fight_y<=Enemy_y[i]+enemyImg.width && Fight_y>=Enemy_y[i])
         {
           hp -= 40;
           Enemy_x[i] = width + 1;
@@ -271,7 +271,7 @@ void draw()
     {
       for(int i = 0; i < 5; i++)
       {  
-        if(Fight_x<=Enemy_x[i]+50 && Fight_x>=Enemy_x[i]-60.8 && Fight_y<=Enemy_y[i]+60.8 && Fight_y>=Enemy_y[i]-60.8)
+        if(Fight_x<=Enemy_x[i]+enemyImg.width && Fight_x>=Enemy_x[i] && Fight_y<=Enemy_y[i]+enemyImg.width && Fight_y>=Enemy_y[i])
         {
           hp -= 40;
           Enemy_x[i] = width + 1;
