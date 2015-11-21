@@ -54,8 +54,8 @@ void setup () {
   hp=40;
   B=0;
   //Treasure
-  Treasure_x=floor(random(20,550));
-  Treasure_y=floor(random(30,460));
+  Treasure_x=floor(random(40,550));
+  Treasure_y=floor(random(40,400));
 
   //Enemy
   restartEnemy = floor(random(60, 400));
