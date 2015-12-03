@@ -256,7 +256,7 @@ void draw()
       {
         speed = 0;
         enemyState = E2;
-        restartEnemy = floor(random(50,350));
+        restartEnemy = floor(random(50,200));
         for(int i = 0; i < 5; i++)
         {
           Enemy_y[i] = restartEnemy;
