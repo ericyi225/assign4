@@ -79,7 +79,7 @@ void setup () {
   Treasure_y=floor(random(30,460));
 
   //Enemy
-  restartEnemy = floor(random(50,400));
+  restartEnemy = floor(random(50,300));
   for(int i = 0; i < 8; i++)
   {
     Enemy_x[i] = 0;
@@ -332,7 +332,7 @@ void draw()
       {
          enemyState = E1;
          speed = 0;
-         restartEnemy=floor(random(50,400));      
+         restartEnemy=floor(random(50,300));      
          for(int i = 0; i < 8; i++)
          {
           Enemy_y[i] = restartEnemy;
