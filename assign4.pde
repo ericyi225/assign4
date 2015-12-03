@@ -256,7 +256,7 @@ void draw()
       {
         speed = 0;
         enemyState = E2;
-        restartEnemy = floor(random(50,height - enemyImg.height*3));
+        restartEnemy = floor(random(50,350));
         for(int i = 0; i < 5; i++)
         {
           Enemy_y[i] = restartEnemy;
@@ -280,7 +280,7 @@ void draw()
       {
         speed = 0;
         enemyState = E3;
-        restartEnemy = floor(random(40*3, height - enemyImg.height*3));
+        restartEnemy = floor(random(40*3, 350));
         for(int i = 0; i < 5; i++)
         {
           Enemy_y[i] = restartEnemy;
